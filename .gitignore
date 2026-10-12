@@ -1,0 +1,9 @@
+# Ignore the entire hidden terraform directory
+.terraform/
+
+# Ignore state files that hold secrets
+*.tfstate
+*.tfstate.*
+
+# Ignore lock files if you don't want them tracked
+.terraform.lock.hcl
